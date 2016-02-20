@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	for (int num = 1; num <= 20; num++)
+	for (int num = 1; num <= 50; num++)
 	{
 
 		if (num % 3 == 0 && num % 5 == 0)
@@ -17,6 +17,10 @@ int main()
 		else if (num % 5 == 0)
 		{
 			cout << "Buzz" << endl;
+		}
+		else if (num % 7 == 0)
+		{
+			cout << "Woof" << endl;
 		}
 		else
 		{
